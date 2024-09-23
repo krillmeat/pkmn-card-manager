@@ -1,0 +1,36 @@
+.table-section.counts{
+  border-left: 12px solid #E0E0E0;
+  width: 218px;
+}
+
+.table-section.counts .row > .count,
+.table-section.counts .row > .need,
+.table-section.counts .row > .completion{
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.table-section.counts .row > .need{ border-left: 8px solid #E0E0E0; }
+
+.table-section.counts .row p.c,
+.table-section.counts .row > .completion p{
+    font-size: .85em;
+    width: 33px;
+    text-align: center;
+    padding: 4px 10px;
+}
+
+.table-section.counts .row > .completion{ flex-direction: column; justify-content: center;}
+
+.table-section.counts .row p.c.small-text{ font-size: .75em }
+.table-section.counts .row p.c.fade{ color: #AAA }
+
+.table-section.counts .row > .count p.c:first-of-type,
+.table-section.counts .row > .need p.c:first-of-type,
+.table-section.counts .row > .need p.c:nth-of-type(2),
+.table-section.counts .row > .need p.c:nth-of-type(3){ border-right: 1px solid #000 }
+
+.table-section.counts .row > .completion p img{
+  width: 100%;
+}

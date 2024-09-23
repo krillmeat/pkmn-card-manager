@@ -1,0 +1,49 @@
+.card-table > .heading > .decks{ 
+  display: flex;
+  flex: 1; 
+  border-left: 12px solid #E0E0E0; 
+  overflow-y: visible;
+  overflow-x: scroll;
+  padding: 0;
+  background: #EAEAEA;
+  height: 100%;
+}
+
+.card-table > .heading > .decks .img-wrap{
+  width: 33px;
+    min-width: 33px;
+  border-right: 1px solid #E0E0E0;
+  padding: 4px;
+  background: #FFF;
+}
+
+.card-table > .heading > .decks .img-wrap img{ width: 100%; }
+
+.table-section.decks{
+  border-left: 12px solid #E0E0E0;
+  flex: 1;
+  overflow-x: scroll;
+  background: #E0E0E0;
+  height: 100%;
+}
+
+
+.card-table > .heading > .decks::-webkit-scrollbar,
+.table-section.decks::-webkit-scrollbar{ display: none }
+
+.table-section.decks .row{ background: #EAEAEA}
+
+.table-section.decks .row p.c{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: .75em;
+  width: 33px;
+    min-width: 33px;
+  text-align: center;
+  padding: 4px 8px;
+  border-right: 1px solid #E0E0E0;
+  background:#FFF;
+}
+
+.table-section.decks .row p.c.small-text{ font-size: .65em }

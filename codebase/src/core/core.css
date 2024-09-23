@@ -1,0 +1,8 @@
+.core {
+  width: calc(100vw - 257px);
+  margin-left: 241px;
+  margin-top: 300px;
+  height: calc(100vh - 316px);
+  min-height: 32px;
+  background: #FFF;
+}

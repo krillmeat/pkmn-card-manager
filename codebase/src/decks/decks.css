@@ -1,0 +1,54 @@
+.deck-view{
+  width: calc(100vw - 258px);
+  margin-left: 241px;
+  min-height: 32px;
+  background: #E0E0E0;
+  padding-top: 16px;
+}
+
+.deck-view .deck-select{
+  display: flex;
+    flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.deck-view .deck-select .deck-choice{
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.deck-view .deck-select .deck-choice button{
+  display: flex;
+    align-items: center;
+  border: none;
+  border-radius: 3px;
+  background: #FFF;
+  font-size: .85em;
+  padding: 4px 12px 4px 4px;
+}
+
+.deck-view .deck-select .deck-choice img{
+  width: 24px;
+  margin-right: 4px;
+}
+
+.deck-view .deck-select .deck-choice.active{
+  border: 1px solid #000;
+}
+
+.deck-view .deck-heading{
+  background: #FFF;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.deck-view .deck-heading h2{
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+
+.deck-view .decklist{
+  width: 100%;
+  height: 100px;
+}

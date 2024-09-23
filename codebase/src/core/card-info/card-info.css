@@ -1,0 +1,32 @@
+.card-table.no-decks > .heading > .info{ flex: 1 !important; }
+
+.table-section.card-info{ width: 300px }
+.card-table.no-decks .table-section.card-info{ flex: 1 !important; }
+
+.table-section.card-info .row p.number {
+  position: relative;
+  width: 60px;
+  border-radius: 3px 0 0 3px;
+  padding: 12px;
+  padding-top: 18px;
+  padding-left: 8px;
+  font-size: .75em;
+}
+
+.table-section.card-info .row p.type-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20px;
+  padding: 2px;
+}
+
+.table-section.card-info .row p.type-icon img{ width: 100% }
+
+.table-section.card-info .row p.name {
+  width: 220px;
+  padding: 12px;
+  padding-top: 16px;
+  padding-left: 18px;
+  font-size: .75em;
+}

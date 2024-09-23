@@ -1,0 +1,21 @@
+nav.sidebar{
+  position: fixed;
+  top: 0; left: 0;
+  width: 225px;
+  height: 100vh;
+  background: #FFF;
+  z-index: 99999;
+}
+
+nav.sidebar ul{ width: 100%; }
+nav.sidebar ul li{ width: 100%; }
+nav.sidebar ul li button{ 
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-bottom: 1px solid #E0E0E0;
+  background: none;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
