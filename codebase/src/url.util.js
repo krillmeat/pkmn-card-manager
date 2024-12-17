@@ -11,3 +11,5 @@ export const getFormatParam = () => {
 
   return "";
 }
+
+export const showOwnedParam = () =>  window.location.search.substring(1).indexOf("show-owned=true") !== -1;

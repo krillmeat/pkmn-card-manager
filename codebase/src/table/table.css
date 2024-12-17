@@ -20,6 +20,8 @@
 .core .card-table > .heading > .count{ width: 218px; }
 .deck-view .card-table > .heading > .count{ width: 119px; }
 
+.deck-view .card-table > .heading > .count.hide-owned{ width: 80px; }
+
 .card-table > .body{
   width: 100%;
   height: calc(100% - 48px);

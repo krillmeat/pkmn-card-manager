@@ -3,7 +3,7 @@ import { CardContext } from '../app';
 import { FORMATS } from '../data/formats.data';
 import { IMG } from '../images/images';
 
-export const CoreHeading = ({info = true, decks = false, counts = true}) => {
+export const CoreHeading = ({info = true, decks = false, counts = true, showOwned=false}) => {
 
   const [context] = useContext(CardContext);
 
@@ -21,6 +21,6 @@ export const CoreHeading = ({info = true, decks = false, counts = true}) => {
       })}
       <div className='img-wrap'> <img src={IMG.PKMN['ditto-s']}/> </div>
     </div>}
-    {counts && <div className='count'>Counts</div> }
+    {counts && <div className={'count'+(showOwned ? ' show-owned' : ' hide-owned')}>Counts</div> }
   </div>)
 }

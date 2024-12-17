@@ -1,0 +1,274 @@
+.card.hgss{
+}
+
+
+.card.hgss .card-name{
+  font-weight: 725;
+}
+
+.card.hgss.pkmn .card-name{ top: .38em; left: .65em; }
+.card.hgss.trainer .card-name,
+.card.hgss.supporter .card-name{ top:.98em; right: .6em; }
+
+.card.hgss .card-name > span{
+  font-family: 'Nunito Sans', sans-serif !important; /* TODO: I need to fix the issue with the body * font overriding this */
+}
+
+.card.hgss.pkmn .card-name > span{ font-size: .42em; }
+.card.hgss.trainer .card-name > span,
+.card.hgss.supporter .card-name > span{ font-size: .355em; }
+
+.card.hgss.stageOne .card-name,
+.card.hgss.stageOnePrime .card-name,
+.card.hgss.stageTwo .card-name,
+.card.hgss.stageTwoPrime .card-name{ left: 1.25em; }
+
+
+
+
+
+
+
+.card.hgss.in-color.grass{background-color: #AED05F;}
+.card.hgss.in-color.water{background-color: #B4DEF7;}
+.card.hgss.in-color.lightning{background: #FFF49C }
+
+.card.hgss .pkmn-type {
+  top: .33em; right: .32em;
+}
+
+
+.card.hgss .pkmn-stage{
+  top: .9em;
+  text-transform: uppercase;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+.card.hgss .pkmn-stage > span{
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: .23em;
+}
+
+
+.card.hgss.basic .pkmn-stage,
+.card.hgss.basicPrime .pkmn-stage{
+  left: .575em;
+}
+
+.card.hgss.stageOne .pkmn-stage,
+.card.hgss.stageOnePrime .pkmn-stage,
+.card.hgss.stageTwo .pkmn-stage,
+.card.hgss.stageTwoPrime .pkmn-stage{
+  left: 1em;
+  letter-spacing: -1px;
+}
+
+.card.hgss .evo-from{
+  position: absolute;
+  font-style: italic;
+  top: .91em; left: 2.2em;
+  letter-spacing: -.5px;
+}
+
+.card.hgss .evo-from span{ font-size: .125em; }
+
+
+
+
+.card.hgss .pkmn-hp{
+  height: .3em;
+  font-weight: 700;
+  right: .88em;
+  top: .39em;
+} 
+
+.card.hgss .pkmn-hp > span{ font-size: .41em; }
+
+.card.hgss .pkmn-hp .label{ font-size: .45em; font-weight: 900; margin-right: 1px; }
+.card.hgss .pkmn-hp .value{ font-weight: 600; letter-spacing: -1px; }
+.card.hgss .pkmn-hp.triple-digit .value{ letter-spacing: -2px; }
+
+
+
+
+
+
+
+
+
+
+
+.card.hgss .effect-area{
+  position: absolute;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  width: 5.45em;
+  height: 2.4em;
+  top: 4.95em;
+  left: .5em;
+  
+}
+
+.card.hgss .effect-area .effect-spacing-1 .effect:first-of-type{ margin-bottom: .1em; }
+.card.hgss .effect-area .effect-spacing-2 .effect:first-of-type{ margin-bottom: .2em; }
+.card.hgss .effect-area .effect-spacing-3 .effect:first-of-type{ margin-bottom: .3em; }
+
+.card.hgss .effect-area .effect-spacing-5 .effect .text{ font-size: .17em; }
+.card.hgss .effect-area .effect-spacing-6 .effect .text{ font-size: .15em; }
+
+.card.hgss .effect-area .effect-spacing-5 .effect:first-of-type,
+.card.hgss .effect-area .effect-spacing-6 .effect:first-of-type{ margin-bottom: .1em; }
+
+.card.hgss .effect-area .effect-spacing-triple .effect .text{ font-size: .14em; }
+
+.card.hgss .effect-area .effect-spacing-triple .effect:first-of-type,
+.card.hgss .effect-area .effect-spacing-triple .effect:nth-of-type(2){ margin-bottom: .05em; }
+
+
+.card.hgss .effect-area .attack .top,
+.card.hgss .effect-area .power .top,
+.card.hgss .effect-area .body .top{
+  display: flex;
+    align-items: center;
+}
+
+.card.hgss .effect-area .attack .cost{
+  display: flex;
+}
+
+.card.hgss .effect-area .attack .cost.one,
+.card.hgss .effect-area .attack .cost.two,
+.card.hgss .effect-area .attack .cost.three{
+  width: 1.25em;
+}
+
+.card.hgss .effect-area .attack .cost.four{ width: 1.65em; }
+
+.card.hgss .effect-area .attack .cost .energy{ 
+  width: .36em; height: .36em;
+  margin-right: .02em;
+}
+
+.card.hgss .effect-area .attack .name,
+.card.hgss .effect-area .power .name,
+.card.hgss .effect-area .body .name,
+.card.hgss .effect-area .attack .dmg{
+  font-size: .33em;
+  font-weight: 700;
+}
+
+.card.hgss .effect-area .attack .name,
+.card.hgss .effect-area .power .name,
+.card.hgss .effect-area .body .name{
+  flex: 1;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.card.hgss .effect-area .power .name{ color: #A9030D; }
+.card.hgss .effect-area .body .name{ color: #099741; }
+
+.card.hgss .effect-area .attack .dmg{ width: 2em; text-align: right; }
+
+.card.hgss .effect-area .power .top img,
+.card.hgss .effect-area .body .top img{
+  height: auto; position: relative; /* unsetting */
+  width: 1.15em; 
+  margin-right: .1em;
+}
+
+.card.hgss .effect-area .power .text,
+.card.hgss .effect-area .body .text,
+.card.hgss .effect-area .attack .text{
+  width: 100%;
+  font-size: .19em;
+  margin-top: .3em;
+}
+
+
+
+
+
+
+
+
+
+.card.hgss .wrrc{
+  position: absolute;
+  display: flex;
+  top: 8em; left: .4em;
+  width: 5.65em; height: 40px;
+}
+
+.card.hgss .wrrc .weakness,
+.card.hgss .wrrc .resistance,
+.card.hgss .wrrc .rc{ 
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  width: 33.33%; 
+}
+
+.card.hgss .wrrc .rc-list{ display: flex; }
+.card.hgss .wrrc .rc-list .energy{ margin: 0 .025em; }
+
+.card.hgss .wrrc .label{
+  font-size: .14em;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.card.hgss .wrrc .energy{ 
+  position: relative;
+  width: .32em; height: .32em;
+}
+
+.card.hgss .wrrc .energy::after{
+  position: absolute;
+  top: .1em; left: 1.3em;
+  font-size: .26em;
+  font-weight: 700;
+}
+
+.card.hgss .wrrc .weakness .energy::after{ content: 'x2'; }
+.card.hgss .wrrc .resistance .energy::after{ content: '-20'; }
+
+
+
+
+
+
+
+.card.hgss.trainer .trainer-label{
+  position:absolute;
+}
+
+
+.card.hgss.trainer .text,
+.card.hgss.supporter .text{
+  top: 5.1em;
+  left: .8em;
+  width: 4.8em;
+  height: 2.75em;
+
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.card.hgss.trainer .text .main,
+.card.hgss.supporter .text .main{
+  font-size: .2em;
+  font-weight: 300; 
+  letter-spacing: -.5px;
+  line-height: 1.4;
+}
+
+.card.hgss.supporter .text .sub{
+  font-size: .16em;
+  font-weight: 300; 
+  line-height: 1.3;
+  margin-bottom: 2em;
+}

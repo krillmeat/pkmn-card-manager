@@ -70,8 +70,8 @@ export const useSortedCardList = () => {
 
     let basicEnergy = context.cardArray.filter(filterType('bEnergy')).sort(sortBasicEnergy);
 
-    setSorted([...sortObj.pkmn.core, ...sortObj.trainer.core, ...sortObj.item.core, ...sortObj.supporter.core, ...sortObj.tool.core,  ...sortObj.stadium.core, ...sortObj.sEnergy.core,
-            ...sortObj.pkmn.deck, ...sortObj.trainer.deck, ...sortObj.item.deck, ...sortObj.supporter.deck, ...sortObj.tool.deck, ...sortObj.stadium.deck, ...sortObj.sEnergy.deck, ...basicEnergy]);
+    setSorted([...sortObj.pkmn.core, ...sortObj.supporter.core, ...sortObj.trainer.core, ...sortObj.item.core, ...sortObj.tool.core,  ...sortObj.stadium.core, ...sortObj.sEnergy.core,
+            ...sortObj.pkmn.deck, ...sortObj.supporter.deck, ...sortObj.trainer.deck, ...sortObj.item.deck, ...sortObj.tool.deck, ...sortObj.stadium.deck, ...sortObj.sEnergy.deck, ...basicEnergy]);
   },[context?.cardArray])
 
   return sorted;

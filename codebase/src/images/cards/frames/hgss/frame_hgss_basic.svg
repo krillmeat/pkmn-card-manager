@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 178.6 249.4">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_11" data-name="Layer_1">
+    <g id="Layer_7">
+      <rect class="st0" x="5.7" y="5.6" width="167.2" height="238.1"/>
+      <polyline class="st0" points="51.4 23.1 167.4 23.1 167.4 131.1 11.2 131.1 11.2 30.4"/>
+      <polyline class="st0" points="46.9 25.6 165.8 25.6 165.4 131.1 13 131.1 13 30.5"/>
+      <polygon class="st0" points="10.4 131.1 168.3 131.1 170.3 136.8 8.4 136.8 10.4 131.1"/>
+      <line class="st0" x1="13" y1="208.7" x2="144.3" y2="208.7"/>
+      <path class="st0" d="M11.2,23.1h-.2c-2,0-3.7,1.6-3.7,3.7s1.6,3.7,3.7,3.7.2,0,.2,0h24.2s-.5,0,3,0,6.6-3,9.3-5.6,4.2-1.8,4.2-1.8c0,0-40.7,0-40.7,0Z"/>
+      <path class="st0" d="M120,216.3h-.2c-1.8,0-3.2,1.4-3.2,3.2s1.4,3.2,3.2,3.2.2,0,.2,0h39c8.9,0,9.4-6.4,9.4-6.4,0,0-48.4,0-48.4,0Z"/>
+      <path class="st0" d="M167.4,23.1l.9-1,4.6-15.2s0-1.4-2.7-1.4h-28.2c-6.3.9-12.6,8.7-16,11.6-4.9,4.2-11.6,5.9-11.6,5.9"/>
+      <path class="st0" d="M10.8,23.1l-.9-1L5.4,7s0-1.4,2.7-1.4h28.2"/>
+      <path class="st0" d="M19.9,23.1c-4.8,0-8.7-3.9-8.7-8.7s3.9-8.7,8.7-8.7"/>
+    </g>
+  </g>
+</svg>

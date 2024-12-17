@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.card-wrap{
+  position: relative;
+
+  margin-right: 16px;
+  margin-bottom: 16px;
+
+  width: 63mm;
+  height: 88mm;
+
+  font-size: 10mm;
+}
+
+.card-wrap .card-text{ position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; }
+
+.card-wrap.size-lg{
+  width: 94.5mm;
+  height: 132mm;
+  font-size: 15mm;
+}
+
+.card-wrap.size-sm .card-text{ top: .05em; }
+.card-wrap.size-md .card-text{ top: .05em; }
+.card-wrap.size-lg .card-text{ top: .01em; }
+
+.card-wrap.size-xl{
+  width: 126mm;
+  height: 176mm;
+  font-size: 20mm;
+}
+
+.card-wrap .card{
+  width: 100%;
+  height: 100%;
+  border: 4px solid #000;
+  border-radius: 10px;
+  background: #FFF;
+  box-sizing: content-box;
+}
+
+.card-wrap .card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card-wrap .energy{
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.card-wrap.size-lg .energy{ border: 1.5px solid #000 }
+.card-wrap.size-sm .energy,
+.card-wrap.size-md .energy{ border: 1px solid #000 }
+.card-wrap .energy.grass{ background: #73BF45 }
+.card-wrap .energy.fire{ background: #F0474A }
+.card-wrap .energy.water{ background: #008CD3 }
+.card-wrap .energy.lightning{background: #FFE047 }
+.card-wrap .energy.psychic{ background: #81579F }
+.card-wrap .energy.fighting{ background: #F47A3B }
+.card-wrap .energy.darkness{background: #000; }
+.card-wrap .energy.metal{background: #999; }
+.card-wrap .energy.colorless{background:#FFF}
+
+.card-wrap .energy img{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+}
+
+.card .pkmn-type,
+.card .pkmn-stage{ position: absolute; }
+
+.card-wrap .card.stage-evolution .pkmn-type{ top: .5em;}
+
+.card-wrap .pkmn-type .energy{ width: .5em; height: .5em; }
+
+.card-wrap .card .card-text > p{ position: absolute; display: flex; flex-direction: column; align-items: flex-end; }
+
+
+.card-wrap .card.stage-evolution .pkmn-name{ top: .6em; left: 1.8em; }
+.card-wrap .card.stage-evolution .pkmn-name > span{ font-size: .4em; letter-spacing: -2px; }
+
+/* LEVEL */
+
+.card-wrap .card .pkmn-lv{
+  height: .1em;
+  font-weight: 700;
+  left: 3.7em;
+  top: .7em;
+  letter-spacing: -1px;
+  -webkit-text-stroke: .5px black;
+} .card-wrap .card .pkmn-lv > span{ font-size: .18em; }
+
+.card-wrap .card.stage-evolution .pkmn-lv{ top: .8em }
+
+.card-wrap .card.gen-2 .pkmn-lv {top:.87em; left: 4.3em; }
+.card-wrap .card.gen-2 .pkmn-lv > span{ font-size: .14em; font-style: italic; }
+
+
+.card-wrap .card .pkmn-hp.triple-digit{ left: 4.4em }
+.card-wrap .card.stage-evolution .pkmn-hp{ top: .64em }
+
+.card-wrap .card.gen-2 .pkmn-hp{
+  top: .72em;
+  left: 4.7em;
+} .card-wrap .card.gen-2 .pkmn-hp > span{ font-size: .33em; }
+
+
+
+/* EVOLUTION */
+
+.card-wrap .card.stage-evolution .evolves-from{ 
+  display:flex; 
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  top: .32em; 
+  left: 1.5em; 
+  width: 4.3em; 
+} .card-wrap .card.stage-evolution .evolves-from > span{ display: block; font-size: .13em }
+.card-wrap .card.stage-evolution .evolves-from > span:nth-of-type(2){ letter-spacing: -.5px; font-size: .12em; }
+.card-wrap .card.stage-evolution .evolves-from > span:first-of-type{ font-weight: 900 }
+
+
+
+/* PKMN DETAILS */
+
+.card-wrap .card .pkmn-details{
+  height: .2em;
+  font-weight: 700;
+  left: 1em;
+  top: 4.78em;
+  width: 4.3em;
+  text-align: center;
+} .card-wrap .card .pkmn-details > span{ width: 100%; font-size: .16em; }
+
+
+.card-wrap .card .flavor-text{
+  top: 7.2em;
+  left: 3.925em;
+  width: 1.7em;
+  height: .95em;
+  font-weight: 300;
+  display:flex;
+  justify-content: center;
+} .card-wrap .card .flavor-text > span{ font-size: .15em; font-style: italic }
+
+.card-wrap .card.gen-2 .flavor-text{
+  left: 3.82em;
+  top: 7.45em;
+  width: 1.95em;
+}
+
+
+
+.card-wrap .card .points{
+  position:absolute;
+  display:flex;
+    justify-content: center;
+  top: 8.45em;
+  left: 2em;
+  width: 2em;
+}
+
+.card-wrap .card .points > p{ font-size: .2em; margin: 0 .1em; }
+
+/* MODIFIERS */
+.card-wrap .card .pkmn-lv.mod-shift-lv-right{ left:3.9em }
+.card-wrap .card.gen-2 .pkmn-lv.mod-shift-lv-right{ left:4.3em }
+.card-wrap .card .pkmn-name.titled{
+  top: .68em;
+  left: 1.4em;
+  letter-spacing: -4px;
+} .card-wrap .card .pkmn-name.titled > span { font-size: .37em }

@@ -123,9 +123,11 @@ export const buildCardObj = (cardNumber, decks, format) => {
     core: coreValue,
     deck: getHighestCount(decks).count - coreValue
   }
-
+  
   _obj.have = FORMATS[format].owned[getSet(cardNumber)][cardNumber];
   _obj.need = buildNeedObject(_obj.counts,_obj.have);
+
+  _obj.data = FORMATS[format].cards[getSet(cardNumber)][cardNumber];
   
   return _obj;
 }

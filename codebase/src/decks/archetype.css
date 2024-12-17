@@ -1,0 +1,12 @@
+.archetype-select{
+  display:flex;
+}
+
+.archetype-select .archetype{
+  background: #FFF;
+  padding: 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.archetype-select .archetype img{ height: 40px; }

@@ -1,0 +1,31 @@
+/* .card.trainer{}
+
+.card.trainer .trainer-name{
+  top: 1.57em;
+  left: .6em;
+  letter-spacing: -1px;
+  font-weight: 700;
+} .card.trainer .trainer-name > span{ font-size: .38em; }
+
+.card.trainer .effect{
+  top: 5.6em;
+  left: 1em;
+  width: 4.4em;
+  font-weight: 300; 
+  letter-spacing: -.5px;
+  line-height: 1.4;
+} .card.trainer .effect span{ font-size: .24em; }
+
+.card.trainer .effect span.tool-rule{ font-size: .15em !important; margin-bottom: .7em;}
+
+.card-wrap .card.trainer .points{ top: 8.4em; }
+
+.card-wrap .card .trainer-sub-type{ 
+  top: 1.73em;
+  right: .4em;
+} .card-wrap .card .trainer-sub-type > span {font-size: .21em }
+
+.card.trainer.mod-small-name .trainer-name{ top: 1.58em }
+.card.trainer.mod-small-name .trainer-name span{ letter-spacing: -2px; }
+.card.trainer.mod-smallest-text .effect span{ font-size: .18em; }
+.card.trainer.mod-small-text .effect span{ font-size: .2em; } */

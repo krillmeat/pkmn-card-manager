@@ -19,8 +19,8 @@ const attachNavEvents = () => {
 }
 
 window.onload = function () {
-  init();
-  // deckConverter();
+  // init();
+  document.getElementById("content").appendChild(deckConverter());
 };
 
 var init = function init() {

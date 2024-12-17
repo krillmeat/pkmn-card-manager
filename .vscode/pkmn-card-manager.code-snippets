@@ -22,6 +22,18 @@
 			"$1: {name: '$2', cardType:'pkmn', type: '$3'},$0"
 		]
 	},
+	"Attack": {
+		"scope": "javascript",
+		"prefix": "pkmn_attack",
+		"body": "{type:'attack', name:'$1', cost: [$2], dmg:$3, text:\"$4\"},"
+	},
+	"POKE POWER": {
+		"scope": "javascript",
+		"prefix": "pkmn_power",
+		"body": [
+			"{type:'power', name:'$1', text: \"$2\"},"
+		]
+	},
 	"Item Data": {
 		"scope": "javascript",
 		"prefix": "item_data",

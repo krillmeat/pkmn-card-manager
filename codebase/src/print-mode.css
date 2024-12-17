@@ -1,0 +1,16 @@
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+  body{background: none }
+  #root{ background: none }
+
+  .print-mode *{
+    color-adjust: exact
+  }
+
+  nav{ display: none !important }
+
+  .print-mode.card-list{ padding: 10mm !important; } 
+}

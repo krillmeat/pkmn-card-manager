@@ -1,0 +1,19 @@
+.data-area{
+  display: flex;
+}
+
+.deck-view .data-area .deck-heading{
+  background: #FFF;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.deck-view .data-area .deck-heading h2{
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+
+.deck-view .data-area .source{ margin-top: 24px; }
+.deck-view .data-area .source .author{ margin-bottom: 8px; font-size: .9em; }
+.deck-view .data-area .source .author a{ text-decoration: none; text-transform: uppercase; font-size: .75em; letter-spacing: 1px; }
+.deck-view .data-area .source .modified-note{ font-size: .75em; font-style: italic; }

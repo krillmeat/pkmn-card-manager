@@ -1,0 +1,109 @@
+/* .card-wrap .card .effect-area{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 5.2em;
+  height: 2em;
+  top: 4.95em;
+  left: .6em;
+  justify-content: center;
+}
+
+.card-wrap .card.gen-2 .effect-area{ height: 2.4em; }
+
+.card-wrap .card .effect-area .attack{
+  top: .4em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.card-wrap .card .effect-area.number-2 .attack.number-1{
+  border-bottom: .025em solid #000;
+  padding-bottom: .12em;
+}
+
+.card-wrap .card .effect-area.number-2 .attack.number-2{ padding-top: .12em }
+
+.card-wrap .card .effect-area .attack > div.left{ width: 1.7em; display: flex; }
+.card-wrap .card .effect-area .attack > div.center{ width: 2.8em; }
+.card-wrap .card .effect-area .attack > div.right{ width: .65em; text-align: right; }
+
+.card-wrap .card .effect-area .attack .energy{
+  width: .35em;
+  height: .35em;
+  margin-right: .05em;
+}
+
+.card-wrap .card .effect-area .attack .attack-name{
+  font-size: .3em;
+  font-weight: 700;
+  margin-bottom: .1em;
+}
+
+.card-wrap .card .effect-area .attack .attack-text{
+  font-size: .16em; font-weight: 300; letter-spacing: -.5px;
+}
+
+.card-wrap .card .effect-area .attack .attack-dmg{
+  font-size: .3em; font-weight: 700;
+}
+
+.card-wrap .card .effect-area .attack .attack-dmg.offset{ transform: translateX(.6em) }
+
+.card-wrap .card .effect-area .poke-power{
+  width: 100%;
+  border-bottom: .025em solid #000;
+  padding-bottom: .15em;
+}
+
+.card-wrap .card .effect-area .poke-power .top{
+  display: flex;
+  width: 100%;
+}
+
+.card-wrap .card .effect-area .poke-power .left{
+  width: 1.2em;
+}
+
+.card-wrap .card .effect-area .poke-power .right{ width: 4em }
+
+.card-wrap .card .effect-area .poke-power .label{ 
+  font-size: .17em;
+  font-weight: 700;
+  padding-top: .4em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.card-wrap .card .effect-area .poke-power .name{ 
+  font-size: .3em;
+  font-weight: 700; 
+}
+
+.card-wrap .card .effect-area .poke-power .text{
+  font-weight: 300; letter-spacing: -.5px; margin-left: 7.5em;
+} .card-wrap .card .effect-area .poke-power .text span{ font-size: .16em; display: block; }
+
+
+
+/* MODIFIERS */
+/* .card-wrap .card .effect-area .poke-power.mod-power-long .text{ margin-left: 0 }
+.card-wrap .card .effect-area .poke-power.mod-power-small .text span{ font-size: .14em; }
+
+.card-wrap .card .effect-area.mod-shift-attacks-left-one .attack div.left{ width: 1.45em; }
+.card-wrap .card .effect-area.mod-shift-attacks-left-one .attack div.center{ width: 3.5em }
+
+.card-wrap .card .effect-area.mod-shift-attacks-left-two .attack div.left{ width: 1.1em; }
+.card-wrap .card .effect-area.mod-shift-attacks-left-two .attack div.center{ width: 3.85em }
+
+.card-wrap .card .effect-area .attack.mod-attack-small .attack-text{ font-size: .14em; }
+.card-wrap .card .effect-area .attack.mod-attack-no-dmg > div.center{ width: 3.5em; }
+
+.card-wrap .card .effect-area.mod-vert-tighten.number-2 .attack.number-1,
+.card-wrap .card .effect-area.mod-vert-tighten.number-2 .poke-power{ padding-bottom: .1em }
+.card-wrap .card .effect-area.mod-vert-tighten.number-2 .attack.number-2{ padding-top: .1em }
+
+.card-wrap .card .effect-area.mod-vert-expand.number-2 .attack.number-1,
+.card-wrap .card .effect-area.mod-vert-expand.number-2 .poke-power{ padding-bottom: .2em }
+.card-wrap .card .effect-area.mod-vert-expand.number-2 .attack.number-2{ padding-top: .2em } */

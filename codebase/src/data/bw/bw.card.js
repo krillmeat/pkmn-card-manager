@@ -17,8 +17,8 @@ const BLW ={
   BLW_108: {name: 'Lightning Energy', cardType: 'bEnergy', type: 'lightning'},
   BLW_109: {name: 'Psychic Energy', cardType: 'bEnergy', type: 'psychic'},
   BLW_110: {name: 'Fighting Energy', cardType:'bEnergy', type:'fighting'},
-  BLW_111: {name: 'Darkness Energy', cardType:'bEnergy', type:'darkness'},
-  BLW_112: {name: 'Metal Energy', cardType:'bEnergy', type:'metal'}
+  BLW_111: {name: 'Darkness Energy (Basic)', cardType:'bEnergy', type:'darkness'},
+  BLW_112: {name: 'Metal Energy (Basic)', cardType:'bEnergy', type:'metal'}
 }
 
 const EPO = {

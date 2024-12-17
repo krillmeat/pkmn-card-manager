@@ -12,7 +12,7 @@ const deckNeed = (card,currDeck) => {
 };
 
 
-export const DeckCounts = ({cardList, currDeck}) => {
+export const DeckCounts = ({cardList, currDeck, showOwned}) => {
 
   return(<>
       
@@ -21,12 +21,12 @@ export const DeckCounts = ({cardList, currDeck}) => {
           <div className='count'>
             <CardCount core count={card.decks[currDeck]}/>
           </div>
-          <div className='need'>
+          {showOwned && <><div className='need'>
             <CardCount need core count={deckNeed(card,currDeck)}/>
           </div>
           <div className='completion'>
             <p><img src={deckNeed(card,currDeck) === 0 && CompleteAll}/></p>
-          </div>
+          </div></>}
         </div>)
       })}
   </>)

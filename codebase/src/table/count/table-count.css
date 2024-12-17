@@ -36,3 +36,5 @@
 .table-section.counts .row > .completion p img{
   width: 100%;
 }
+
+.deck-view .table-section.counts.hide-owned{width: 80px; }

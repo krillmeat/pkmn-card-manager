@@ -20,6 +20,7 @@ export const SidebarNav = () => {
     <ul>
       <SidebarButton label='Core' click={() => { setPage('core') }} />
       <SidebarButton label='Decks'  click={() => { setPage('decks') }} />
+      <SidebarButton label='Cards'  click={() => { setPage('card') }} />
     </ul>
   </nav>)
 }

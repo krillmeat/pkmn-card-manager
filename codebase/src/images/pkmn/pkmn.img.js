@@ -33,10 +33,32 @@ import magnezone from '../pkmn/magnezone.png';
 import lanturn from '../pkmn/lanturn.png';
 import machamp from '../pkmn/machamp.png';
 import vileplume from '../pkmn/vileplume.png';
+import hitmonchan from '../pkmn/hitmonchan.png';
+import alakazam from '../pkmn/alakazam.png';
+import lickitung from '../pkmn/lickitung.png';
+import magmar from '../pkmn/magmar.png';
+import venusaur from '../pkmn/venusaur.png';
+import arcanine from '../pkmn/arcanine.png';
+import clefable from '../pkmn/clefable.png';
+import dragonite from '../pkmn/dragonite.png';
+import electabuzz from '../pkmn/electabuzz.png';
+import feraligatr from '../pkmn/feraligatr.png';
+import kingdra from '../pkmn/kingdra.png';
+import steelix from '../pkmn/steelix.png';
+import ampharos from '../pkmn/ampharos.png'
+import raichu from '../pkmn/raichu.png';
+import victreebel from '../pkmn/victreebel.png';
+import typhlosion from '../pkmn/typhlosion.png';
+import magcargo from '../pkmn/magcargo.png';
+
 
 export const PKMN_IMG = {
   ["ditto-s"]: dittoS,
+  alakazam,
+  hitmonchan,
   blastoise,
+  clefable,
+  lickitung,
   vileplume,
   machamp,
   keldeo,
@@ -70,4 +92,17 @@ export const PKMN_IMG = {
   magnezone,
   umbreon,
   lanturn,
+  magmar,
+  arcanine,
+  venusaur,
+  dragonite,
+  electabuzz,
+  feraligatr,
+  steelix,
+  kingdra,
+  ampharos,
+  victreebel,
+  raichu,
+  typhlosion,
+  magcargo,
 };

@@ -8,13 +8,13 @@ import './table.css';
 import { CoreHeading } from '../core/heading';
 
 
-export const CardTable = ({cardList, info = true, decks = false, counts = true, view='core', currDeck=''}) => {
+export const CardTable = ({cardList, info = true, decks = false, counts = true, view='core', currDeck='', showOwned=false}) => {
   return(<div className={`card-table ${!decks && 'no-decks'}`}>
-    <CoreHeading decks={decks} view={view} />
+    <CoreHeading decks={decks} view={view} showOwned={showOwned}/>
     <div className='body'><div className='wrap'>
         {info && <CardInfo cardList={cardList}/>}
         {view === 'core' && <Decklists cardList={cardList}/>}
-        {counts && <Counts cardList={cardList} view={view} currDeck={currDeck}/>}
+        {counts && <Counts cardList={cardList} view={view} currDeck={currDeck} showOwned={showOwned}/>}
       </div></div>
   </div>)
 }

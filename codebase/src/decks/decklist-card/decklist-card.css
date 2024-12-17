@@ -1,0 +1,87 @@
+.decklist-card-wrap{
+    position:fixed;
+    top:0; left:0;
+    z-index:9999;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.2);
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.decklist-card-wrap.hide-wrap{
+  position: relative;
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+.decklist-card{
+  position:relative;
+  width: 63mm;
+  height: 88mm;
+  border-radius: 5px;
+  background:#FFF;
+  border: 2mm solid #000;
+  padding: 2mm;
+}
+
+.decklist-card .img-wrap{
+  border: 1px solid #000;
+  width: 100%; height: 16mm;
+  margin-bottom: 2mm;
+
+  overflow:hidden;
+}
+
+.decklist-card .img-wrap img{ width: 100%; }
+
+.decklist-card .deck-name{
+  margin-bottom: 2mm;
+  font-weight: 900;
+  font-size: 5mm;
+  letter-spacing: 1px;
+}
+
+.decklist-card .label{
+  font-size: 2.5mm;
+  font-weight: 900;
+  margin-top: 1.5mm;
+  margin-bottom: 1mm;
+}
+
+.decklist-card .sub-list{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.decklist-card .sub-list .card{ 
+  display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  width: 50%; 
+  text-transform: uppercase;
+  margin-bottom: .5mm;
+}
+
+.decklist-card .sub-list .card:nth-of-type(odd){ padding-right: 1.5mm; }
+.decklist-card .sub-list .card:nth-of-type(even){ padding-left: 1.5mm; }
+
+.decklist-card .sub-list p > span{ font-size: 2mm; }
+
+.decklist-card .sub-list .count{ margin-right: 2mm; font-weight: 500; position: relative; }
+.decklist-card .sub-list .count.bold{ font-weight: 900; }
+.decklist-card .sub-list .count .core-count{ position: absolute; font-size:.75em; top:-.1mm; right:-1.2mm; font-weight: 500; }
+.decklist-card .sub-list .count.no-core-count .core-count{ display: none }
+.decklist-card .sub-list .number{ font-size: 1.5mm }
+
+.decklist-card .format{
+  position: absolute;
+  left:0; bottom:0;
+  width: 100%;
+  background: #000;
+  color: #FFF;
+  font-size: 2mm;
+  padding:1mm 1mm 0 1mm;
+}
